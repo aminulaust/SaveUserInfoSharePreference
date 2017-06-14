@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aminulaust.com.saveuserinfosharepreference.MainActivity">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:hint="User Input"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:hint="Password"
+        />
+    <Button
+        android:id="@+id/saveinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Info"
+        android:background="@color/colorAccent"
+        android:layout_margin="22dp"
+        android:onClick="saveclick"
+        />
+    <Button
+        android:id="@+id/showinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Info"
+        android:background="@color/colorAccent"
+        android:layout_margin="22dp"
+        android:onClick="showclick"
+        />
+    <TextView
+        android:id="@+id/dispalyinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Show info"
+        android:layout_margin="22dp"
+        />
+
+
+
+</LinearLayout>
